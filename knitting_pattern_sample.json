@@ -1,0 +1,12 @@
+{
+  "filename":"mypat.png",
+  "name":"a small sweater",
+  "dimensions":{
+    "image_length":80,
+    "image_width":20,
+    "physical_length":80.01,
+    "physical_width":20.01,
+    "units": "cm"
+  },
+  "colors":2
+}
