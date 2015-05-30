@@ -4,7 +4,7 @@
   "description":"A knitting pattern specification. Defines a file name and knitting specs.",
   "type":"object",
   "properties":{
-    "filename":{
+    "file_url":{
       "description":"The name of the file that holds the pattern.",
       "type":"string"
     },
@@ -29,13 +29,11 @@
         },
         "units":{
           "type":"string"
+        },
+	"yarn_strength":{
+          "type":"object"
         }
-      },
-      "required":[
-        "physical_length",
-        "physical_width",
-        "units"
-      ]
+      }
     },
     "colors":{
       "type":"integer"
@@ -43,6 +41,7 @@
   },
   "required":[
     "filename",
-    "name"
+    "name",
+    "colors"
   ]
 }
