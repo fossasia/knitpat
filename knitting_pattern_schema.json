@@ -30,8 +30,16 @@
         "units":{
           "type":"string"
         },
-	"yarn_strength":{
-          "type":"object"
+        "yarn_strength":{
+          "type":"object",
+          "properties":{
+            "units":{
+              "type":"string"
+            },
+            "value":{
+              "type":"number"
+            }
+          }
         }
       }
     },
@@ -40,7 +48,7 @@
     }
   },
   "required":[
-    "filename",
+    "file_url",
     "name",
     "colors"
   ]

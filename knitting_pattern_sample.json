@@ -1,12 +1,17 @@
 {
-  "filename":"mypat.png",
+  "file_url":"mypat.png",
   "name":"a small sweater",
   "dimensions":{
     "image_length":80,
     "image_width":20,
     "physical_length":80.01,
     "physical_width":20.01,
-    "units": "cm"
+    "units": "cm",
+    "yarn_strength":
+    {
+      "units": "newtons",
+      "value": 10
+    }
   },
   "colors":2
 }
